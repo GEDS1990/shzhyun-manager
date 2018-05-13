@@ -59,7 +59,7 @@ export const asyncRouterMap = [
 
    {
     path: '/dash1',
-    redirect: '/dash1/introduction',
+    redirect: '/dash1/dashboard',
     name: '牧羊犬Code',
     component: Full2,
     hidden:false,
@@ -71,7 +71,7 @@ export const asyncRouterMap = [
   },
    {
     path: '/dash2',
-    redirect: '/dash2/introduction',
+    redirect: '/dash2/dashboard',
     name: '数智云博客',
     component: Full2,
     hidden:false,
@@ -83,7 +83,7 @@ export const asyncRouterMap = [
   },
    {
     path: '/dash3',
-    redirect: '/dash3/introduction',
+    redirect: '/dash3/dashboard',
     name: '首页2',
     component: Full2,
     hidden:false,
@@ -93,6 +93,18 @@ export const asyncRouterMap = [
     
     ]
   },
+  {
+   path: '/dash4',
+   redirect: '/dash4/splidervideo',
+   name: '爬虫管理',
+   component: Full2,
+   hidden:false,
+   children: [
+    {path: '/dash4/splidervideo',name: '视频爬虫',icon:'speedometer',component: _import('splidervideo')},
+    {path: '/dash4/spliderdocs',name: '软文爬虫',icon:'thumbsup',component: _import('spliderdocs')},
+   
+   ]
+ },
 
 
   { path: '*', redirect: '/pages/404', hidden: true }

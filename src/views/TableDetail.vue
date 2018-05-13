@@ -6,10 +6,8 @@
       <Col span="18">
       <div style="text-align:center">
           
-  <video  controls height="300" v-if="is_video" id='video' preload="auto" src="http://otl6ypoog.bkt.clouddn.com/Objectstoarge/videos/2017-08-14/65055_WeChatSight38.mp4">
-     
-    
-  </video>
+    <video  controls height="300" v-if="is_video" id='video' preload="auto" src="http://otl6ypoog.bkt.clouddn.com/Objectstoarge/videos/2017-08-14/65055_WeChatSight38.mp4" />
+    <video  controls height="300" v-if="is_video" id='video' preload="auto" src="http://flv3.bn.netease.com/tvmrepo/2018/3/P/V/EDB9TE9PV/SD/EDB9TE9PV-mobile.mp4" />
 
       </div>
 

@@ -63,6 +63,18 @@
       </li>
 
 
+        <li class="nav-item header-item">
+      
+
+         <router-link tag="div" to='/dash4'  style="height:55px;" class="nav-link">
+            <p><Icon type="trophy" size='30' color="#2d8cf0"></Icon></p>
+            <p  style="color:white"> 爬虫管理 </p>
+        </router-link> 
+
+
+      </li>
+
+
 
      
     </ul>
